@@ -605,7 +605,7 @@ class: center, top, inverse
 
 --
 
-* Combien le centre de vaccination de Nieul a-t-il réalisé d'injection la semaine du 17 mai 2021 ?
+* Combien le centre de vaccination à la Covid de Nieul a-t-il réalisé d'injections la semaine du 17 mai 2021 ?
 
 --
 
