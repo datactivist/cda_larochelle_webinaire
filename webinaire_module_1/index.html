@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Webinaire les données ouvertes</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sylvain Lapoix, Datactivist" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist.css" rel="stylesheet" />
+    <link href="libs/remark-css-0.0.1/datactivist-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Webinaire<br>les données ouvertes
+## 1 - Découvrir l’open data,<br>le territoire et son patrimoine
+### Sylvain Lapoix, Datactivist
+### 31/05/2021
+
+---
+
+layout: true
+  
+
+&lt;div class='my-footer'&gt;&lt;span&gt;CdA LR - webinaire open data 1&lt;/span&gt; &lt;center&gt;&lt;div class=logo&gt;&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='0px'&gt;&lt;/center&gt;&lt;/span&gt;&lt;/div&gt; 
+
+
+&lt;style type="text/css"&gt;
+
+
+.yellow-h{
+   background: #ffff88;
+}
+
+.blue-h{
+   background: #83c7fc;
+}
+
+
+.caption {
+  text-align: right;
+  font-size: .8rem;
+}
+
+.redred {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.green {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+.orange {
+  color: #ffa500;
+  font-weight: bold;
+
+}
+
+.quote {
+  font-family: 'Rokkitt';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 28px;
+}
+
+
+.pull-left-wide {
+  width: 65%;
+  float: left;
+}
+
+.pull-right-wide {
+  width: 65%;
+  float: right;
+}
+
+.pull-right-narrow {
+  width: 30%;
+  float: right;
+}
+
+.pull-left-narrow {
+  width: 30%;
+  float: left;
+}
+
+
+
+&lt;/style&gt;
+
+---
+
+class: center, middle
+
+Ces slides en ligne : http://datactivist.coop/cda_larochelle_webinaire/webinaire_module_1
+
+Sources : https://github.com/datactivist/cda_larochelle_webinaire
+
+
+Les productions de Datactivist sont librement réutilisables selon les termes de la licence [Creative Commons 4.0 BY-SA](https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr).
+
+&lt;BR&gt;
+&lt;BR&gt;
+
+.reduite[![](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)]
+
+
+---
+
+
+background-image: url("https://media.giphy.com/media/GjobGNFEkUq0soel20/giphy.gif")
+class: center, top, inverse
+
+# Commençons&lt;br&gt;par nous présenter
+
+
+---
+
+&lt;img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/logo.png' width='320px'&gt;
+
+### We .red[open data], we make them .red[useful]
+
+.reduite.center[![](./img/team.png)]
+
+---
+## Qui sommes nous ?
+
+- Datactivist est un .red[**pure player de l’open data**] créé en 2016, par Samuel Goëta et Joël Gombin.
+
+- Se positionnant sur .red[**toutes les étapes du travail d’ouverture des données**], Datactivist travaille tant avec les producteurs de données qu’avec les réutilisateurs et participe à l’appropriation des données par chacun.
+
+- Nous appliquons nos propres .red[**valeurs**] : nous sommes une coopérative ; nos supports de formation et nos contenus sont librement réutilisables, publiés en licence Creative Commons.
+
+- Une approche issue de la recherche : voir notamment **https://datactivist.coop/these**. 
+
+- Nous animons la communauté [#TeamOpenData](https://teamopendata.org).
+
+
+---
+
+
+background-image: url("https://media.giphy.com/media/NoCbUpxL1qzCw/giphy.gif")
+class: center, top
+
+### Et vous alors,&lt;br&gt;qui êtes-vous en deux mots ?
+
+---
+
+### Rappel du déroulement du cycle de webinaires
+
+
+.pull-left[
+Lundi 31 mai 2021
+.red[**découvrir l’open data - le territoire et son patrimoine**]
+
+**Objectifs** :
+* Comprendre les notions de base de l'open data
+* Découvrir l'histoire de la politique de données ouvertes de La Rochelle : ses étapes et ses réalisations ;
+* Explorer la nouvelle plateforme open data de la Communuauté d'Agglomération mise en ligne le 26 avril 2021.
+
+]
+
+.pull-right[
+Sessions suivantes :
+
+* 7 juin : .red[**l’open data dans la loi : ce que le droit exige**]
+
+* 14 juin : .red[**l’open data en pratique**]
+
+* 21 juin : .red[**utiliser l’open data dans votre service**]
+
+
+]
+
+
+
+---
+
+background-image: url("https://media.giphy.com/media/lvzdeWk12qjmM/giphy.gif")
+class: center, top, inverse
+
+## Commençons par un aveu ...
+
+---
+
+.center[
+![](https://media.giphy.com/media/vfsAZnqDvoHzUpMPY4/giphy.gif)
+
+## Je suis néo-Rochelais !
+]
+
+---
+
+### Grande migration
+
+.pull-left-wide[
+![](./img/saintdenis_larochelle.png)
+]
+
+.pull-right-narrow[J'ai quitté Saint-Denis, 93, après une enfance en grande banlieue parisienne et une adolescence champenoise (Troyes, Aube).
+
+Depuis mars 2021, j'habite à La Rochelle. Et, au début, ça n'a pas été facile de s'y retrouver ...]
+
+---
+
+### Une recherche d'.blue-h[informations]
+
+Nouvelle arrivant, j'avais plusieurs questions en lien avec ma situation :
+
+* travailleur à distance : *y a-t-il la Fibre là où je vais habiter ?*
+* cycliste : *comment me rendre sur mon lieu de travail à vélo ?*
+* acheteur : *quel est le prix des logements à l'achat dans l'agglo ?*
+
+---
+
+#### Disponibilité de la Fibre
+
+.pull-left-wide[
+![](./img/arcep_debitaladresse.png)
+]
+
+.pull-right-narrow[Cette .blue-h[information] est rendue disponible par l'Arcep, l'autorité de régulation du secteur, via sa .blue-h[carte] [Ma connexion](https://maconnexioninternet.arcep.fr/?lat=46.15974929&amp;lng=-1.14999718&amp;zoom=18&amp;mode=debit).
+
+Pour chaque .yellow-h[adresse postale référencée], le site propose .yellow-h[le débit maximal pour chaque opérateur].]
+
+
+---
+
+.right[
+#### Trajet cycliste
+]
+.pull-left-narrow[
+Le site et l'application [Géovélo](https://www.geovelo.fr/la-rochelle/route?b=46.174842,-1.146071,46.130994,-1.209437&amp;from=-1.206060,46.162330&amp;to=-1.160560,46.140230) permet un calcul d'itinéraire pour la totalité du territoire français.
+
+Sur la base d'un point de départ et d'un point d'arrivé, il suggère plusieurs .blue-h[trajets cyclistes] en s'appuyant sur .yellow-h[tracé des pistes cyclables].
+]
+
+.pull-right-wide[
+![](./img/geovelo_itineraire.png)
+]
+
+---
+
+
+background-image: url("https://media.giphy.com/media/3ornk6UHtk276vLtkY/giphy.gif")
+class: center, top, inverse
+
+### Et vous allez me dire qu'on peut trouver les opérations de l'immobilier en libre accès ?
+
+
+---
+
+.center[
+### Demandes de valeurs foncières
+
+![](./img/dvf_ruerougemont.png)
+]
+
+Le site data.gouv.fr propose .blue-h[[une carte interactive](https://app.dvf.etalab.gouv.fr/)] permettant d'explorer .yellow-h[les demandes de valeurs foncières], c'est-à-dire .yellow-h[le détail des opérations réalisées sur des biens immobiliers].
+
+---
+
+### Derrière les .blue-h[informations] des .yellow-h[données]
+
+.center[
+.reduite[
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/DIKW_Pyramid.svg/1280px-DIKW_Pyramid.svg.png)
+]
+]
+
+.caption[Pyramide DIKW, attribuée dans sa version moderne à Russell Ackoff]
+
+---
+
+class: inverse
+
+### Une hiérarchie du sens
+
+.quote[Where is the Life we have lost in living?
+
+Where is the wisdom we have lost in knowledge?
+
+Where is the knowledge we have lost in information?
+]
+
+.caption[The Rock, T.S. Eliot, 1934]
+
+---
+
+background-image: url("https://media.giphy.com/media/l2JHQzrwFCOw98rMA/giphy.gif")
+class: center, top, inverse
+
+# 1 - Les données ouvertes&lt;br&gt;Comment ? Pour qui ? Pour quoi ?
+
+---
+
+class: center, middle
+
+### C'est quoi une donnée selon vous ?
+
+---
+
+class: center, middle
+
+### Et une donnée ouverte ?
+
+---
+
+### Open data : un terme récent
+
+Le terme est apparu pour la première fois dans les années 1970 dans les accords qu’a signés la NASA avec des pays partenaires en vue du partage de données satellitaires. 
+
+C’est en 1995 qu’on en voit le premier usage public aux Etats-Unis dans un rapport de la National Academy of Science intitutlé "_On the Full and Open Exchange of Scientific Data_".
+
+Dans le langage courant, cela fait près de 10 ans que l'ouverture des données est devenue un élément majeur des politiques publiques numériques.
+
+---
+
+### Ouvrir les données = ouvrir les usages
+
+Mettre les données à disposition, c'est permettre de les utiliser en dehors du cadre et des fins qui ont présidé à leur production :
+
+* réaliser des calculs avec sa propre méthode ;
+* contribuer collectivement à des recherches (calcul distribué) ;
+* croiser des données de plusieurs sources ;
+* cartographier des phénomènes ;
+* créer des apps ...
+
+
+---
+
+
+background-image: url("https://media.giphy.com/media/xT77XZrTKOxycjaYvK/giphy.gif")
+class: center, top, inverse
+
+## Encore un truc de geek ?
+
+---
+
+
+class: center, top, inverse
+
+## Oui ...
+
+![](https://media.giphy.com/media/5hQMLC3fjuOOdYzYRr/giphy.gif)
+
+
+--
+
+## ... mais !
+
+
+---
+
+### L'ouverture des données est un levier de transparence
+
+Ouvrir les données constitue un outil de renforcement des institutions démocratiques :
+
+* par l'accès aux étapes de la fabrique de la loi ;
+* par la mise à disposition du détail des dépenses publiques ;
+* par la publication des déclarations d'intérêt (notamment grâce à l'institution d'une [Haute autorité pour la transparence de la vie publique](https://www.hatvp.fr/open-data/))
+* etc.
+
+Les politiques de données ouvertes rééquilibrent le rapport entre les institutions et les administré·es en permettant l'exercice de la vigilance démocratique.
+
+---
+
+### L'ouverture des données est un droit reconnu
+
+La France dispose d'une législation spécifique sur le sujet :
+
+* au fondement : .red[**la Déclaration des Droits de l'Homme et du Citoyen de 1789**] dans son article 15, "la Société a le droit de demander compte à tout Agent public de son administration." 
+
+* depuis 1978, **la loi CADA** (pour Commission d'accès aux documents administratifs) a instauré un droit d'accès des citoyens à l'information publique ;
+
+.pull-left-wide[
+* le 7 octobre 2016, **la Loi pour une République Numérique** instaure une .red[**ouverture des données par principe**], complétant la question de l'information publique sur la mise à disposition des données et de algorithmes. ]
+
+.pull-right-narrow[![](https://datactivist.coop/ca_larochelle_formation/formation_cheffeproj/jour01/img/repnum.jpg)]
+
+
+---
+
+background-image: url("https://media.giphy.com/media/jmwBGL1PaLyDKsnCF0/giphy.gif")
+class: center, top, inverse
+
+### Mais ça, nous en parlerons&lt;br&gt;dans le webinaire #2
+
+---
+
+### L'ouverture des données est un levier d'innovation
+
+L'ouverture des données permet la création de nouveaux services :
+
+* [OpenStreetMap](openstreetmap.org/) sert de fonds de carte à d'innombrables applications ;
+* [Géovélo](https://www.geovelo.fr/) tire ses cartes de pistes cyclables de données mises à disposition ...
+
+--
+
+**Les personnes qui traitent les données ne sont que des intermédiaires qui valorisent ces données. Nous sommes tou·tes des usagers et usagères de données ouvertes au travers les services qu'elles permettent de créer.**
+
+--
+
+.right[
+Notamment à La Rochelle !
+]
+
+---
+
+background-image: url("https://media.giphy.com/media/3o7aTBRWaXiqticjBu/giphy.gif")
+class: center, top, inverse
+
+# 2 - La Rochelle, ville pionnière de l'open data
+
+---
+
+### 2012 - 2014 : les débuts de l'open data
+
+.pull-left[
+La ville de La Rochelle lance dès 2012 un site d'ouverture des données publiques.
+
+Les collectivités sont rares à tenter l'aventure : la mission Etalab, chargée de la promotion des données ouvertes dans les administrations, [répertorie alors principalement](https://www.etalab.gouv.fr/lopendatadanslescollectivitesterritoriales) des grandes villes ou agglomérations (Paris, Bordeaux, Rennes ...) ou des départements et régions.
+
+En 2014, La Rochelle fait partie des premiers territoires à partager ses données sur la plateforme [data.gouv.fr](data.gouv.fr/).
+]
+
+.pull-right[
+![](https://www.etalab.gouv.fr/wp-content/uploads/2014/02/carte.png)
+
+Source : [Etalab, 2014](https://www.etalab.gouv.fr/lavilledissylesmoulineauxreferencesesdonneespubliquessurdata-gouv-fretrejointlesnombreuxacteurslocauxpresentssurlaplateforme).
+]
+
+---
+
+### LR au bout des doigts
+
+.pull-left[
+![](./img/lr_auboutdesdoigts.png)
+]
+
+.pull-right[L'application [La Rochelle au bout des doigts](https://www.larochelle.fr/action-municipale/ville-connectee/lapplication-la-rochelle-au-bout-des-doigts) propose une grande variété d'informations sur la vie locale : passages de bus, événements, marées, place de parking ... autant de services nourris par l'open data de La Rochelle !
+
+Chaque événement du calendrier provient de .yellow-h[la base de données des événements de La Rochelle].
+
+La disponibilité des places de parking est publiée en temps réel sur le site.
+
+L'emplacement des différents établissements provient de .yellow-h[la base des établissements publiques de la ville].]
+
+---
+
+### Handicarto
+
+En 2012, [la ville publie l'application Handicarto](https://www.opendatafrance.net/reuse/handicarto-lr-une-application-mobile-pour-faciliter-les-deplacements-des-personnes-en-situation-de-handicap-a-la-rochelle/) permettant de trouver des itinéraires pour les personnes en situation de handicap.
+
+![](./img/handicarto_lr.png)
+
+---
+
+.pull-left[
+![](./img/modalis.png)
+]
+
+.pull-right[### Modalis
+
+[L'application Modalis](https://modalis.fr/fr/page/2) mise en place par le syndicat Nouvelle-Aquitaine Mobilités construit ses cartes en centralisant les données de 25 autorités organisations de la mobilité dans la région, dont Yélo.
+
+Yélo récupère ces données auprès des deux délégataires en temps réel.]
+
+---
+
+### Les menus des cantines
+
+En mettant à disposition [les menus des cantines et la liste des allergènes associés](https://opendata.agglo-larochelle.fr/portail?search=Restauration+-+Menus+des+restaurants+scolaires), la ville de La Rochelle a permis d'alimenter l'application [QuiDitMiam](https://quiditmiam.fr/features) qui informe sur les menus les parents mais aussi les salarié·es disposant d'une cantine.
+
+![](https://quiditmiam.fr/img/fonctionalites.jpg)
+
+---
+
+### Reconnaissance
+
+.pull-left[
+* en 2012, la ville reçoit le prix "Ville citoyenne" de l'Association Pour Adultes et Jeunes Handicapés pour l'applicaiton Handicarto ;
+* en 2017, La Rochelle se voit décerner [le trophée open data des territoires par La Gazette des Communes](https://www.lepetiteconomiste.com/La-Rochelle-recoit-le-trophee-open,7492) pour sa stratégie et ses innovations.
+
+La ville est régulièrement citée en exemple des territoires innovants en matière d'ouverture de données.
+]
+
+.pull-right[
+![](./img/lr_prixgazette_od.jpg)
+]
+
+---
+
+#### Et il y a encore mille manières d'utiliser les données
+
+--
+
+.center[
+.reduite[
+![](https://media.giphy.com/media/TsKexoFHkFtSDsTvot/giphy.gif)
+]
+]
+
+.right[
+#### ... et nous en parlerons justement dans le webinaire #3 !
+]
+
+---
+
+background-image: url("https://media.giphy.com/media/qjj4xrA1STjfa/giphy.gif")
+class: center, top, inverse
+
+# 3 - La plateforme opendata
+
+---
+
+background-image: url("./img/opendatalr_home.png")
+background-size: contain
+
+---
+
+## Rechercher un jeu de données
+
+La recherche de données peut se faire par de multiples points d'entrées :
+
+1. **la barre de recherche** : tapez quelques mots clefs et cliquez sur .red[Explorer] ;
+2. **les thématiques** : qui vous renvoient à la liste de tous les jeux de données disponibles rangés sous un sujet ;
+3. **la recherche avancée** : rendez-vous dans la catégorie .red[*les données*] pour mettre à profit les filtres et autres outils de recherche.
+
+---
+
+### La fiche descriptive du jeu de données
+
+Exemple ici : [le réseau de poteau d'incendie](https://opendata.agglo-larochelle.fr/visualisation/?id=e1db44d0-e2e9-4751-9f00-b5500e6dedcc).
+
+.center[
+![](./img/opendatalr_fiche.png)
+]
+
+---
+
+### Explorer les données grâce aux cartes
+
+.center[
+![](./img/opendatalr_poteauincendie_carte.png)
+]
+
+
+---
+
+### Rechercher grâce aux filtres
+
+Exemple ici : [le budget primitif de la CdA 2017](https://opendata.agglo-larochelle.fr/visualisation/information/?id=073138a5-467d-442d-aac4-6ae6e7a5998b)
+
+![](./img/opendatalr_budget_filtre.png)
+
+---
+
+### Réutiliser les données
+
+Les données sont également téléchargeables dans différents formats. Cela permet de réaliser des calculs, des croisements, des visualisations ... pour vos besoins propres ou ceux de vos équipes, par exemple.
+
+--
+
+#### Mais ça, nous en parlerons dans le webinaire #4 !
+
+.center[
+![](https://media.giphy.com/media/YSfb5vx87BpAU1P9MG/giphy.gif)
+]
+
+---
+
+background-image: url("https://media.giphy.com/media/eKTtcBVWqywF88hp7e/giphy.gif")
+class: center, top, inverse
+
+## Pour finir, un petit jeu
+
+---
+
+### Epreuve de rapidité
+
+--
+
+* Donnez-moi la date de la dernière mise à jour de la carte des secteurs maternels !
+
+--
+
+#### Réponse : .red[10 septembre 2020 10:36] ([source](https://opendata.agglo-larochelle.fr/visualisation/information/?id=3eac00ca-a2fe-4920-bca4-1812dd389e97&amp;location=15,46.16494,-1.18206&amp;basemap=Plan.ign.v2))
+
+--
+
+* Dans quel thème est rangé le jeu de données définissant les limites du Grand Port Maritime ?
+
+--
+
+#### Réponse : .red[Services et administration] ([source](https://opendata.agglo-larochelle.fr/visualisation/information/?id=05e4ed1b-189b-42c4-b09a-a1c3daefc3ff))
+
+--
+
+* Combien répertorie-t-on de point d'apport volontaire **de papier** en conteneurs **enterrés** ?
+
+--
+
+#### Réponse : .red[3 !] ([source](https://opendata.agglo-larochelle.fr/visualisation/table/?id=f38061bf-18dc-491c-9d3f-38b51efbe7a6&amp;disjunctive.pav_codepostal&amp;disjunctive.pav_commune&amp;disjunctive.pav_typeconteneur&amp;disjunctive.pav_typedechet&amp;refine.pav_typedechet=Papier&amp;refine.pav_typeconteneur=Enterr%C3%A9))
+
+--
+
+* Combien le centre de vaccination de Nieul a-t-il réalisé d'injection la semaine du 17 mai 2021 ?
+
+--
+
+#### Réponse : .red[C'était un piège, ce jeu de données n'est pas (encore) en ligne !]
+
+---
+
+background-image: url("https://media.giphy.com/media/kvl2YhR110qsBrHid2/giphy.gif")
+class: center, top, inverse
+
+### Et beaucoup d'autres pourraient être mis en ligne grâce à vous !
+
+---
+
+.pull-left-narrow[Les données sont partout.
+
+Il suffit parfois juste d'y réfléchir, d'observer ... et de s'adresser à la bonne personne.]
+
+--
+
+.pull-right-wide[
+![](./img/lr_compteurvelo_quaivalin.jpg)
+]
+
+---
+
+background-image: url("https://media.giphy.com/media/TgF6xfH8V0mZcUyneP/giphy.gif")
+class: center, top, inverse
+
+### Avez-vous des questions ?
+
+---
+class: inverse, center, middle
+
+# Merci !
+
+Contact : [sylvain@datactivist.coop](mailto:sylvain@datactivist.coop)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
