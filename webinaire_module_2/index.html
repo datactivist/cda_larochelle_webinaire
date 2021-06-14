@@ -182,6 +182,9 @@ A vous de répondre par chat :
 --
 
 * *obligatoire* &lt;span&gt;&amp;#9745;&lt;/span&gt;
+
+---
+
 #### La hauteur sous plafond de chaque niveau de chaque parking de La Rochelle
 
 --
@@ -196,8 +199,9 @@ A vous de répondre par chat :
 
 * *obligatoire*  &lt;span&gt;&amp;#9744;&lt;/span&gt; 
 
----
 
+
+---
 
 #### Les 10 plus gros salaires de l'agglo
 
@@ -297,60 +301,19 @@ class: center, middle, inverse
 ![](https://datactivist.coop/dataliteracy/img/photofamille.jpg)
 ]
 ---
-class:middle, center
-![](https://datactivist.coop/dataliteracy/img/session.jpg)
-# Revue des principes
 
----
-class: middle, center
+## Revue des principes
 
-# 1. Des données complètes
-### Toutes les données publiques doivent être rendues disponibles dans les limites légales liées à la vie privée ou la sécurité
----
-class: center, middle
-![](https://datactivist.coop/dataliteracy/img/OPENDATA.jpg)
-# BY DEFAULT
----
-class: middle, center
+(en bref)
 
-# 2. Des données primaires
-###  Les données ouvertes sont telles que collectées à la source, non-agrégées avec le plus haut niveau de granularité
-
----
-class: middle, center
-
-# 3. Des données fraiches (*timely*)
-### Les données doivent être disponibles dès qu'elles sont produites
-
----
-class: middle, center
-
-# 4. Des données accessibles 
-### Les données doivent être utilisables par le plus grand nombre d’usagers potentiels
-
----
-class: middle, center
-
-# 5. Des données exploitables par les machines 
-###  Les données peuvent être traitées automatiquement par les machines
-
----
-class: middle, center
-
-# 6. Des données non discriminatoires 
-### Elles peuvent être utilisées par tous sans réclamer un enregistrement préalable
----
-class: middle, center
-
-# 7. Des données dans un format ouvert
-### Ce format ne doit pas être la propriété d'une organisation en particulier (.xls) et doit être gouverné par ses usagers
-
----
-class: middle, center
-
-# 8. Des données dans une licence ouverte
-### Idéalement dans le domaine public sinon dans une licence conforme à l'[Open Definition](www.opendefinition.org) : Licence Ouverte (CC-BY) ou ODBL (CC-BY-SA)
-
+1. des données complètes ;
+2. Des données primaires ;
+3. Des données fraiches (à jour) ;
+4. Des données accessibles ;
+5. Des données exploitables par les machines ;
+6. Des données non discriminatoires (qui ne nécessitent pas des paramètres, autorisations spéciales, enregistrement préalable) ;
+7. Des données dans un format ouvert ;
+8. Des données dans une licence ouverte.
 ---
 ### 2008 : Tim Berners-Lee ["Raw data now"](https://www.ted.com/talks/tim_berners_lee_on_the_next_web?language=fr)
 #### La demande de données brutes sous les projecteurs
@@ -460,13 +423,13 @@ Alors qu'aux Etats-Unis les données publiques sont placées dans le domaine pub
 
 
 ```{=html}
-&lt;div id="htmlwidget-dabc6f29d555d3ce133d" class="timevis html-widget" style="width:715px;height:350px;"&gt;
+&lt;div id="htmlwidget-844ca7a4570fef747cad" class="timevis html-widget" style="width:715px;height:350px;"&gt;
 &lt;div class="btn-group zoom-menu"&gt;
 &lt;button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in"&gt;+&lt;/button&gt;
 &lt;button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out"&gt;-&lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;script type="application/json" data-for="htmlwidget-dabc6f29d555d3ce133d"&gt;{"x":{"items":[{"id":"1","content":"Loi CADA","start":"1978-07-17"},{"id":"2","content":"Directive PSI","start":"2003-11-17"},{"id":"3","content":"Directive INSPIRE","start":"2007-03-14"},{"id":"4","content":"Révision de la directive PSI","start":"2013-06-13"},{"id":"5","content":"Loi Notre","start":"2015-08-07"},{"id":"6","content":"Loi Valter","start":"2015-12-28"},{"id":"7","content":"Loi pour une République Numérique","start":"2016-10-07"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":"350px","timezone":null,"api":[]},"evals":[],"jsHooks":[]}&lt;/script&gt;
+&lt;script type="application/json" data-for="htmlwidget-844ca7a4570fef747cad"&gt;{"x":{"items":[{"id":"1","content":"Loi CADA","start":"1978-07-17"},{"id":"2","content":"Directive PSI","start":"2003-11-17"},{"id":"3","content":"Directive INSPIRE","start":"2007-03-14"},{"id":"4","content":"Révision de la directive PSI","start":"2013-06-13"},{"id":"5","content":"Loi Notre","start":"2015-08-07"},{"id":"6","content":"Loi Valter","start":"2015-12-28"},{"id":"7","content":"Loi pour une République Numérique","start":"2016-10-07"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":"350px","timezone":null,"api":[]},"evals":[],"jsHooks":[]}&lt;/script&gt;
 ```
 
 ---
@@ -500,37 +463,58 @@ Le document donne également une **définition de ce qu'est une "donnée"** :
 
 ---
 
-### Loi pour une République numérique : l'utilisation de standards ouverts
+### La question des standards de données
+
+Les standards de données sont des conventions portant sur **la forme** des jeux de données :
+
+* le type de fichier ;
+* la structure du fichier : que contiennent les lignes ? A quoi correspondent les colonnes ?
+* la structure des données : comment la date est-elle rédigée ? Utilise-t-on un système de code particulier pour les couleurs, les pays, les coordonnées géogrpahiques, etc.
+
 &lt;img style="float:right; margin:10px"  src="./img/openstand.png"&gt;
+
+--
 
 Afin de faciliter la réutilisation des données par les machines, la loi pour une République Numérique consacre **l'utilisation de standards ouverts** pour la communication des documents administratifs. 
 
 L’administration est dorénavant tenue, lorsqu’elle communique un document administratif au format électronique, de le mettre à disposition du citoyen **"dans un standard ouvert, aisément réutilisable et exploitable par un système de traitement automatisé"**. 
 
-Concrètement, cela devrait empêcher la publication de fichiers PDF là où un fichier CSV **pourrait être** diffusé.
+L'idée est de privilégier, quand c'est possible, un format facile à manipuler par une machine (comme le **CSV** ou le **Excel**) à des formats documentaires non traitables (comme le **PDF**).
 
 ---
 
-### Loi pour une République numérique : une limitation des licences
+### L'enjeu des licences
+
+Les licences constituent un enjeu politique fort : comme pour un établissement de commerce exercant une activité réglementée (la distrubtion d'alcool, par exemple), la licence d'un jeu de données détermine les usages possibles du jeu de données sur laquelle elle est aposée.
+
+--
 
 La loi **limite par décret les licences** qui peuvent être utilisées par les administrations. Le [décret du 27 avril 2017](https://www.legifrance.gouv.fr/eli/decret/2017/4/27/2017-638/jo/texte) autorise deux licences : 
 
-* la Licence Ouverte d'Etalab 
+* la Licence Ouverte d'Etalab : qui autorise un usage et une republication privative.
 
-* la licence ODbL (Open Database License).
+* la licence ODbL (Open Database License) : qui oblige à garder les réutilisations, républications dans une licence ouverte.
 
-Ces deux licences offrent **un choix aux administrations** : la licence ouverte étant plus permissive que la licence ODBL qui a été conçue dans une logique de "pot commun" permettant de garantir que les données resteront ouvertes après leur réutilisation.
-
-Utiliser une autre licence impose une **homologation** auprès de la DINSIC avec un exposé des motifs ayant conduit à sortir de la liste fixée dans le décret et une consultation des usagers affectés par la licence proposée. L'homologation doit être faite pour chaque jeu de données même si la licence reste la même.
+Ces deux licences offrent **un choix aux administrations** : ouvrir à tout usage ou contribuer à un "*pot commun*" de données.
 
 ---
 
-### Loi pour une République numérique : une limitation des licences
+### Les licences en résumé
 
 .reduite.center[
 [![](./img/licences.png)](http://www.opendatalab.fr/index.php/laboratoire/le-kit-collectivites)
 ]
 .footnote[source : [SGAR Occitanie](http://www.opendatalab.fr/index.php/laboratoire/le-kit-collectivites)]
+
+
+
+---
+
+### Jetons un oeil aux données dispo en Odbl
+
+Source : [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/?license=odc-odbl) où il est possible de faire des recherches par licence.
+
+![](./img/dgf_odbl.png)
 
 ---
 
@@ -542,6 +526,10 @@ class: center, top, inverse
 ---
 
 ### Les collectivités concernées
+
+Rappel des critères : plus de 3500 habitant·es et plus de 49 agent·es.
+
+--
 
 L'association Open Data France a évalué à 4604 les collectivités concernées par l'obligation d'ouverture. [Dans son dernier Observatoire de l'open data des territoires](https://www.opendatafrance.net/2020/10/15/observatoire-open-data-des-territoires-edition-oct-2020/) (octobre 2020), elle comptait 503 collectivités ayant au moins publié un jeu de données, soit moins de 11% du total. Remarquant une relation forte entre la taille des administrations et leur niveau d'ouverture :
 
@@ -574,8 +562,6 @@ Entrés en vigueur le 1er octobre 2018, ils instaurent l'obligation de publicati
 
 Autre particularité : cette obligation s'accompagne d'un format réglementaire. Celui-ci est décrit sur le site [schema.data.gouv.fr](https://schema.data.gouv.fr/139bercy/format-commande-publique/latest.html).
 
-
-
 ---
 
 ### Cas particulier : les hauts salaires
@@ -598,39 +584,11 @@ La mission Etalab a initié une démarche de centralisation des schémas de donn
 
 Y sont référencés les schémas justifiés par voie réglementaire (et les textes de référence associés) ou par voie d'usage.
 
-A l'heure où nous présentons cette formation, on peut y trouver :
-* [le schéma des DECP](https://schema.data.gouv.fr/etalab/format-commande-publique/latest.html) *(actuellement en broken link)* ;
-* [le schéma de déclaration de profil acheteur](https://schema.data.gouv.fr/etalab/schema-decp-dpa/latest.html) ;
-* [le schéma des données de subvention publique](https://schema.data.gouv.fr/scdl/subventions/latest.html) *(également en broken link)* ;
-* [le schéma infrastructure de rechargement de voiture électrique (IRVE)](https://schema.data.gouv.fr/etalab/schema-irve/latest.html).
-
----
-
-### Les bonnes pratiques : le SCDL
-
-L'association Open Data France a mis sur pied une initiative du même ordre mais élargissant le concept au delà du cadre réglementaire : le socle commun des données locales (ou [SCDL](https://scdl.opendatafrance.net/docs/)).
-
-.center[
-![](https://scdl.opendatafrance.net/docs/assets/scdl-datamodel-specification-process.png)
-]
-
-Cette compilation couvre un spectre bien plus large, allant des données de subventions aux défibrilateurs, et s'organise comme un espace de partage de bonnes pratiques.
-
----
-
-### Les bonnes pratiques : Validata
-
-.pull-left[Dans la continuité de ce projet, le site [Validata](https://validata.fr/doku.php) propose une outil de validation des données ouvertes.
-
-S'appuyant prioritairement sur les schémas du SCDL, l'outil propose également d'autres sources pour valider les jeux de données :
-* des schémas proche du SCDL ;
-* des schémas au format [TableSchema](https://specs.frictionlessdata.io/table-schema/) développé dans le cadre de [FictionlessData](https://frictionlessdata.io/) ;
-* d'autres validateurs ([Inspire](https://inspire.ec.europa.eu/validator/about/), [BAL](https://adresse.data.gouv.fr/bases-locales/validateur) et [CVDTC]())
-]
-
-.pull-right[![](./img/validata.png)]
-
-
+O peut y trouver :
+* [le schéma de déclaration de profil acheteur pour la commande publique](https://schema.data.gouv.fr/etalab/schema-decp-dpa/latest.html) ;
+* [le schéma des données de subvention publique](https://schema.data.gouv.fr/scdl/subventions/latest.html) ;
+* [le schéma infrastructure de rechargement de voiture électrique (IRVE)](https://schema.data.gouv.fr/etalab/schema-irve/latest.html) ;
+* et beaucoup d'autres !
 
 ---
 
@@ -645,15 +603,76 @@ class: center, top, inverse
 
 ---
 
-## Protection des données personnelles
+
+background-image: url("https://media.giphy.com/media/yow6i0Zmp7G24/giphy.gif")
+class: center, top, inverse
+
+## Une donnée personnelle ?
 
 ---
 
-### En pratique ?
+## Proposition de définition
+
+[![](./img/cnil_donnees_personnelles.png)](https://www.cnil.fr/fr/rgpd-de-quoi-parle-t-on)
 
 ---
 
-### Une exception : le RNE
+### Un cadre légal portant sur les usages
+
+Le premier cadre légal est posé en France par la Loi Informatique et Liberté (LIL), surtout connue pour avoir donné naissance à la Commission Nationale Informatique et Liberté (Cnil).
+
+.quote[La protection légale porte sur l'usage des données et non pas sur les données elles-mêmes.]
+
+---
+
+### Le RGPD
+
+Le RGPD s'exerce sur toutes les organisations privées ou publiques établies ou ayant des activités en lien avec l'Union européenne.
+
+Elle vise à encadrer l'usage des données afin de garantir quelques principes :
+
+1. la finalité : les données sont collectées dans un but donné et de manière minimale (juste ce dont on a besoin) ;
+2. la transparence : les individus doivent être informés de la manière dont sont utilisées leurs données **dès la collecte** ainsi que de leurs droits en la matière ;
+3. l'accès au droit : l'organisation doit faciliter l'exercice des droits des individus sur leurs données ;
+4. la durée de conservation : dans la continuité de l'esprit de *finalité*, les données doivent avoir une date de conservation limitée et guidée par l'usage ;
+5. la sécurité : l'organisation doit garantir la sécurité des données pour éviter d'exposer les individus qu'elles concernent.
+
+---
+
+
+background-image: url("https://media.giphy.com/media/wDGCA2dv9VJxC/giphy.gif")
+class: center, top, inverse
+
+
+### Et vous, utilisez-vous des données personnelles ? Lesquelles ? A quelles fins ?
+
+---
+
+class: center, top, inverse
+
+
+### Peut-on publier des données personnelles ?
+
+---
+
+### Oui mais à des conditions bien précises
+
+La mise en ligne de données à caractère personnel sans anonymisation n'est permise que dans .red[**trois cas**] :
+1. une disposition législative contraire le prévoit (exemple : [Transparence Santé](https://www.data.gouv.fr/fr/datasets/transparence-sante-1/))
+2. si les personnes intéressées ont donné leur accord (consentement au sens de l’article 4 du RGPD)
+3. les documents relevant de [l’article D312-3-1 du CRPA](https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=51E99AF738C12521572D6A7F6C8C03E8.tplgfr23s_1?cidTexte=JORFTEXT000037797147&amp;dateTexte=&amp;oldAction=rechJO&amp;categorieLien=id&amp;idJO=JORFCONT000037796937)
+
+
+Hors de ces cas, il faut .red[**anonymiser les données**].
+
+.center[![](https://media.giphy.com/media/JlISGoRa3j2KY/giphy.gif)]
+
+
+---
+
+### Ex. le registre national des élu·es ([RNE](https://www.data.gouv.fr/en/datasets/repertoire-national-des-elus-1/))
+
+![](./img/dgf_rne.png)
 
 ---
 
@@ -670,6 +689,28 @@ class: center, top, inverse
 ---
 
 ### Je vous présente ... Christian Plantin !
+
+* diplômé de l'Ecole nationale des ingénieurs de Brest en 1999 ;
+* arrivé à La Rochelle en 2006 en tant que responsable réseaux ;
+* délégué à la protection des données depuis la mutualisation ville / agglo.
+
+Il est votre référent pour :
+
+* l'information sur les données personnelles ;
+* le conseil dans les traitements ;
+* la mise en conformité avec la loi.
+
+---
+
+background-image: url("https://media.giphy.com/media/igc5uNcbppPRURODnq/giphy.gif")
+class: center, top, inverse
+
+### Quelles questions voudriez-vous poser à Christian ?
+
+--
+
+.footnote[Hé ben, ça tombe bien, voici son mail :
+[christian.plantin@agglo-larochelle.fr](mailto:christian.plantin@agglo-larochelle.fr)]
 
 ---
 
