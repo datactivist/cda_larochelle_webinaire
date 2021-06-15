@@ -197,7 +197,7 @@ class: center, top, inverse
 ![](./img/saintdenis_larochelle.png)
 ]
 
-.pull-right-narrow[J'ai quitté Saint-Denis, 93, après une enfance en grande banlieue parisienne et une adolescence champenoise (Troyes, Aube).
+.pull-right-narrow[J'ai quitté Saint-Denis (93) après une enfance en grande banlieue parisienne et une adolescence champenoise (à Troyes).
 
 Depuis mars 2021, j'habite à La Rochelle. Et, au début, ça n'a pas été facile de s'y retrouver ...]
 
@@ -207,21 +207,9 @@ Depuis mars 2021, j'habite à La Rochelle. Et, au début, ça n'a pas été faci
 
 Nouvelle arrivant, j'avais plusieurs questions en lien avec ma situation :
 
-* travailleur à distance : *y a-t-il la Fibre là où je vais habiter ?*
 * cycliste : *comment me rendre sur mon lieu de travail à vélo ?*
-* acheteur : *quel est le prix des logements à l'achat dans l'agglo ?*
-
----
-
-#### Disponibilité de la Fibre
-
-.pull-left-wide[
-![](./img/arcep_debitaladresse.png)
-]
-
-.pull-right-narrow[Cette .blue-h[information] est rendue disponible par l'Arcep, l'autorité de régulation du secteur, via sa .blue-h[carte] [Ma connexion](https://maconnexioninternet.arcep.fr/?lat=46.15974929&lng=-1.14999718&zoom=18&mode=debit).
-
-Pour chaque .yellow-h[adresse postale référencée], le site propose .yellow-h[le débit maximal pour chaque opérateur].]
+* travailleur à distance : *y a-t-il la Fibre là où je vais habiter ?*
+* potentiel acheteur : *quel est le prix des logements à l'achat dans l'agglo ?*
 
 
 ---
@@ -238,6 +226,19 @@ Sur la base d'un point de départ et d'un point d'arrivé, il suggère plusieurs
 .pull-right-wide[
 ![](./img/geovelo_itineraire.png)
 ]
+
+---
+
+#### Disponibilité de la Fibre
+
+.pull-left-wide[
+![](./img/arcep_debitaladresse.png)
+]
+
+.pull-right-narrow[Cette .blue-h[information] est rendue disponible par l'Arcep, l'autorité de régulation du secteur, via sa .blue-h[carte] [Ma connexion](https://maconnexioninternet.arcep.fr/?lat=46.15974929&lng=-1.14999718&zoom=18&mode=debit).
+
+Pour chaque .yellow-h[adresse postale référencée], le site propose .yellow-h[le débit maximal pour chaque opérateur].]
+
 
 ---
 
@@ -392,7 +393,7 @@ class: center, top, inverse
 
 L'ouverture des données permet la création de nouveaux services :
 
-* [OpenStreetMap](openstreetmap.org/) sert de fonds de carte à d'innombrables applications ;
+* [OpenStreetMap](https://www.openstreetmap.org/#map=18/46.15960/-1.14846/) sert de fonds de carte à d'innombrables applications ;
 * [Géovélo](https://www.geovelo.fr/) tire ses cartes de pistes cyclables de données mises à disposition ...
 
 --
@@ -453,18 +454,6 @@ L'emplacement des différents établissements provient de .yellow-h[la base des 
 En 2012, [la ville publie l'application Handicarto](https://www.opendatafrance.net/reuse/handicarto-lr-une-application-mobile-pour-faciliter-les-deplacements-des-personnes-en-situation-de-handicap-a-la-rochelle/) permettant de trouver des itinéraires pour les personnes en situation de handicap.
 
 ![](./img/handicarto_lr.png)
-
----
-
-.pull-left[
-![](./img/modalis.png)
-]
-
-.pull-right[### Modalis
-
-[L'application Modalis](https://modalis.fr/fr/page/2) mise en place par le syndicat Nouvelle-Aquitaine Mobilités construit ses cartes en centralisant les données de 25 autorités organisations de la mobilité dans la région, dont Yélo.
-
-Yélo récupère ces données auprès des deux délégataires en temps réel.]
 
 ---
 
