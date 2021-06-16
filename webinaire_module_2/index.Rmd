@@ -110,23 +110,33 @@ Les productions de Datactivist sont librement réutilisables selon les termes de
 background-image: url("https://media.giphy.com/media/7TZvWKVkm0xXi/giphy.gif")
 class: center, top, inverse
 
-# Renons sur les notions<br>évoquées la semaine dernière
+# Revenons sur les notions<br>évoquées la semaine dernière
 
 ---
 
 ## Les données ouvertes : partager pour d'autres usages
 
+.center[
+![](../webinaire_module_1/img/arcep_debitaladresse.png)
+]
 
 
 ---
 
 ## La Rochelle : ville pionnière de l'ouverture
 
+.center[
+![](../webinaire_module_1/img/lr_auboutdesdoigts.png)
+]
 
 ---
 
 ## La plateforme open data comme outil
 
+
+.center[
+![](../webinaire_module_1/img/opendatalr_budget_filtre.png)
+]
 
 
 ---
@@ -253,7 +263,7 @@ Source : [Legifrance](https://www.legifrance.gouv.fr/contenu/menu/droit-national
 
 --
 
-La formalisation juridique s'est opérée sur deux niveaux différents et successifs :
+La formalisation juridique s'est opérée sur deux niveaux différents :
 * une demande de la société civile visant à formaliser des critères correspondant à des besoins et des revendications politiques ;
 * une évolution juridique internationale établissant de nouvelles normes d'information publique spécifiques aux données.
 
@@ -268,13 +278,11 @@ class: center, middle, inverse
 
 ### 2005 : [Open Definition](https://opendefinition.org/)
 
-#### Une définition juridique des droits de l'usager d'un savoir ouvert\*
-
-
+#### Une définition juridique des droits de l'usager à un savoir ouvert\*
 
 .center[![](img/opendef.png)]
 
-.footnote[\*Impulsée par Open Knowledge Foundation.]
+.footnote[\*impulsée par Open Knowledge Foundation.]
 
 ---
 
@@ -409,22 +417,6 @@ Le document ne peut être publié qu'après avoir fait l'objet d'un traitement p
 d'.red[**occulter les mentions protégées**]. L’administration n’est pas tenue de publier un document lorsque “les travaux d’occultation dénatureraient ou videraient de sens le document” ou si “le document est indivisible ou l’occultation est trop complexe”.
 
 ---
-### Du droit d'accès au droit de réutilisation
-
-Alors qu'aux Etats-Unis les données publiques sont placées dans le domaine public depuis les années 70, la question de la réutilisation des données publiques a émergé en France et en Europe dans les années 1990 avec le développement d'Internet facilitant la diffusion des données publiques et le développement de nouveaux services au public. Quelques jalons :
-
-```{r echo=FALSE}
-library(timevis)
-data <- data.frame(
-  id      = 1:7,
-  content = c("Loi CADA","Directive PSI", "Directive INSPIRE", "Révision de la directive PSI", "Loi Notre", "Loi Valter", "Loi pour une République Numérique"),
-  start   = c("1978-07-17","2003-11-17", "2007-03-14","2013-06-13","2015-08-07","2015-12-28","2016-10-07")
-)
-timevis(data, loadDependencies = FALSE, width = "715px", height = "350px")
-
-```
-
----
 
 ### Loi pour une République Numérique : l'ouverture des données par défaut
 
@@ -457,13 +449,13 @@ Le document donne également une **définition de ce qu'est une "donnée"** :
 
 ### La question des standards de données
 
-Les standards de données sont des conventions portant sur **la forme** des jeux de données :
+<img style="float:right; margin:10px"  src="./img/openstand.png">
+
+Les standards sont des conventions portant sur **la forme** des jeux de données :
 
 * le type de fichier ;
 * la structure du fichier : que contiennent les lignes ? A quoi correspondent les colonnes ?
 * la structure des données : comment la date est-elle rédigée ? Utilise-t-on un système de code particulier pour les couleurs, les pays, les coordonnées géogrpahiques, etc.
-
-<img style="float:right; margin:10px"  src="./img/openstand.png">
 
 --
 
@@ -498,7 +490,15 @@ Ces deux licences offrent **un choix aux administrations** : ouvrir à tout usag
 ]
 .footnote[source : [SGAR Occitanie](http://www.opendatalab.fr/index.php/laboratoire/le-kit-collectivites)]
 
+---
 
+### Les licences utilisées par open data La Rochelle
+
+[
+.center[
+![](./img/opendatalr_licences.png)
+]
+](https://opendata.agglo-larochelle.fr/la-demarche?article=licences-et-conditions-d-utilisation)
 
 ---
 
